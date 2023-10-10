@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Battery Analysis Compared to Other Brands</title>
+    <style>
+        /* Add your CSS styles here for the battery analysis */
+        /* Define different colors for each brand or category */
+        .brand1 {
+            background-color: #FF5733; /* Red-Orange */
+        }
+        .brand2 {
+            background-color: #33FF57; /* Green */
+        }
+        .brand3 {
+            background-color: #5733FF; /* Blue-Purple */
+        }
+        /* Add more styles as needed */
+        .bar {
+            width: 100px;
+            height: 20px;
+            margin: 5px;
+            text-align: center;
+            line-height: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Battery Analysis Compared to Other Brands</h1>
+    
+    <!-- Add your HTML structure for the battery analysis here -->
+    <div class="bar brand1">apple: 80%</div>
+    <div class="bar brand2">oppo: 75%</div>
+    <div class="bar brand3">xiomi: 85%</div>
+    
+    <script>
+        // Use JavaScript to populate and structure your battery analysis based on data
+        // You can use JavaScript libraries like D3.js for advanced visualizations
+        
+        // Example: Create a div element with a specific brand's battery percentage
+        // var node = document.createElement("div");
+        // node.textContent = "Brand A: 80%";
+        // node.classList.add("brand1"); // Apply a color class
+        // document.body.appendChild(node); // Append it to the body
+    </script>
+</body>
+</html>
